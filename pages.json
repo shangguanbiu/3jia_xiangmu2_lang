@@ -1,0 +1,416 @@
+{
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "MGM",
+				
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"index": "0",
+								"text": "&#xf01f5;",
+								"fontSrc": "/static/image/iconfont.ttf",
+								"fontSize": "25px",
+								"color": "#FFFFFF",
+								"float": "left"
+
+							}
+							// ,{
+							// 	"index": "1",
+							// 	"text": "登录/注册",
+
+							// 	"fontSize": "14px",
+							// 	"color": "#FFFFFF"
+
+							// },
+						]
+					}
+				}
+
+			}
+		}, {
+			"path": "pages/usercenter/usercenter",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"backgroundColor": "#F7F8FC",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/gongzi/gongzi",
+			"style": {
+				"navigationBarTitleText": "我的工资列表",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"navigationBarBackgroundColor": "#3E3EF7"
+
+			}
+
+		}, {
+			"path": "pages/room/zoushi/zoushi",
+			"style": {
+				"navigationBarTitleText": "走勢圖",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 100,
+				"navigationBarBackgroundColor": "#141414"
+
+			}
+
+		}, {
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "賬户登錄",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F7F8FC",
+				
+				"navigationBarBackgroundColor": "#141414"
+				
+			}
+
+		}, {
+			"path": "pages/login/reg/reg",
+			"style": {
+				"navigationBarTitleText": "賬户註冊",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F7F8FC",
+				"navigationBarBackgroundColor": "#141414"
+			
+			}
+
+		}, {
+			"path": "pages/infolist/infolist",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F7F8FC",
+				"navigationBarBackgroundColor": "#141414"
+				
+			}
+
+		}, {
+			"path": "pages/xieyi/xieyi",
+			"style": {
+				"navigationBarTitleText": "用户協議",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F7F8FC",
+				"navigationBarBackgroundColor": "#141414"
+				
+			}
+
+		}, {
+			"path": "pages/zhengce/zhengce",
+			"style": {
+				"navigationBarTitleText": "隱私政策",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F7F8FC",
+				"navigationBarBackgroundColor": "#141414"
+				
+			}
+
+		}, {
+			"path": "pages/login/login_type/login_type",
+			"style": {
+				"navigationBarTitleText": "賬户登錄",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+				
+			}
+
+		}, {
+			"path": "pages/01/01",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/02/02",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/room/room",
+			"style": {
+
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 100,
+				"navigationBarBackgroundColor": "#141414"
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"index": "0",
+				// 			"text": "遊戲玩法",
+
+				// 			"fontSize": "14px",
+				// 			"color": "#FFFFFF"
+
+				// 		}]
+				// 	}
+				// }
+
+			}
+
+		}, {
+			"path": "pages/room/wanfa/wanfa",
+			"style": {
+				"navigationBarTitleText": "遊戲玩法",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/room/room_M/room_M",
+			
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"index": "0",
+							"text": "詳情",
+
+							"fontSize": "14px",
+							"color": "#FFFFFF"
+
+						}]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "系统通知",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/notice/detail/detail",
+			"style": {
+				"navigationBarTitleText": "系统通知",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/rechargelist/recharge",
+			"style": {
+				"navigationBarTitleText": "充值記錄",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/getcashlist/getcash",
+			"style": {
+				"navigationBarTitleText": "提現記錄",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/qianbao/qianbao",
+			"style": {
+				"navigationBarTitleText": "錢包",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/getcash/getcash",
+			"style": {
+				"navigationBarTitleText": "申請提現",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/bindcard/bindcard",
+			"style": {
+				"navigationBarTitleText": "綁定賬户",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/card/Index",
+			"style": {
+				"navigationBarTitleText": "我的賬户",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/card/Edit",
+			"style": {
+				"navigationBarTitleText": "編輯賬户",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/record/record",
+			"style": {
+				"navigationBarTitleText": "賬變記錄",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/bet_record/bet_record",
+			"style": {
+				"navigationBarTitleText": "投注记录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}, {
+			"path": "pages/usercenter/updatepsw/updatepsw",
+			"style": {
+				"navigationBarTitleText": "修改登錄密碼",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+			}
+
+		}
+	    , {
+	    	"path": "pages/recharge/type/Ali",
+	    	"style": {
+	    		"navigationBarTitleText": "充值",
+	    		"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+	    	}
+	    
+	    }, {
+	    	"path": "pages/kefu/kefu",
+	    	"style": {
+	    		"navigationBarTitleText": "客服",
+	    		"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#000"
+	    	}
+	    
+	    }, {
+	    	"path": "pages/kefu/kefu_index",
+	    	"style": {
+	    		"navigationBarTitleText": "客服",
+	    		"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+	    	}
+	    
+	    }, {
+	    	"path": "pages/kefu/kefu_whatsa",
+	    	"style": {
+	    		"navigationBarTitleText": "客服",
+	    		"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#141414"
+	    	}
+	    
+	    }
+    ],
+	"globalStyle": {
+
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "MGM",
+		"backgroundColor": "#080808",
+		"usingComponents": {
+			"van-row": "/wxcomponents/vant/dist/row/index",
+			"van-col": "/wxcomponents/vant/dist/col/index",
+			"van-toast": "/wxcomponents/vant/dist/toast/index",
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-icon": "/wxcomponents/vant/dist/icon/index",
+			"van-tag": "/wxcomponents/vant/dist/tag/index",
+			"van-divider": "/wxcomponents/vant/dist/divider/index",
+			"van-popup": "/wxcomponents/vant/dist/popup/index",
+			"van-picker": "/wxcomponents/vant/dist/picker/index",
+			"van-cell": "/wxcomponents/vant/dist/cell/index",
+			"van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+			"van-count-down": "/wxcomponents/vant/dist/count-down/index",
+			"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+			"van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+			"van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+			"van-empty": "/wxcomponents/vant/dist/empty/index",
+			"van-field": "/wxcomponents/vant/dist/field/index",
+			"van-nav-bar": "/wxcomponents/vant/dist/nav-bar/index",
+			"van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index",
+			"van-uploader": "/wxcomponents/vant/dist/uploader/index",
+			"van-progress": "/wxcomponents/vant/dist/progress/index"
+			
+
+		}
+
+	},
+	"tabBar": {
+		"color": "#2E2E30",
+		"selectedColor": "#141414",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "12px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			// 	{
+			// 	"pagePath": "pages/index/index",
+			// 	"iconPath": "static/image/index.png",
+			// 	"selectedIconPath": "static/image/index_hover.png",
+			// 	"text": "首页"
+			// 	// "iconfont": { // 优先级高于 iconPath，该属性依赖 tabbar 根节点的 iconfontSrc
+			// 	// 	"text": "\ue102",
+			// 	// 	"selectedText": "\ue103",
+			// 	// 	"fontSize": "17px",
+			// 	// 	"color": "#000000",
+			// 	// 	"selectedColor": "#0000ff"
+			// 	// }
+			// }, {
+			// 	"pagePath": "pages/usercenter/usercenter",
+			// 	"iconPath": "static/image/usercenter.png",
+			// 	"selectedIconPath": "static/image/usercenter_hover.png",
+			// 	"text": "我的"
+
+			// },
+			{
+				"pagePath": "pages/01/01",
+				"iconPath": "static/image/usercenter.png",
+				"selectedIconPath": "static/image/usercenter_hover.png",
+				"text": "01"
+
+			}, {
+				"pagePath": "pages/02/02",
+				"iconPath": "static/image/usercenter.png",
+				"selectedIconPath": "static/image/usercenter_hover.png",
+				"text": "02"
+
+			}
+
+
+		]
+	},
+	"uniIdRouter": {}
+}

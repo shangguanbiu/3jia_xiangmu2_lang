@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/usercenter/usercenter",
+    "pages/gongzi/gongzi",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/infolist/infolist",
+    "pages/xieyi/xieyi",
+    "pages/zhengce/zhengce",
+    "pages/login/login_type/login_type",
+    "pages/01/01",
+    "pages/02/02"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "易砼之友",
+    "backgroundColor": "#F7F8FC"
+  },
+  "tabBar": {
+    "color": "#2E2E30",
+    "selectedColor": "#3E3EF7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "12px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/01/01",
+        "iconPath": "static/image/usercenter.png",
+        "selectedIconPath": "static/image/usercenter_hover.png",
+        "text": "01"
+      },
+      {
+        "pagePath": "pages/02/02",
+        "iconPath": "static/image/usercenter.png",
+        "selectedIconPath": "static/image/usercenter_hover.png",
+        "text": "02"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-toast": "/wxcomponents/vant/dist/toast/index",
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-tag": "/wxcomponents/vant/dist/tag/index",
+    "van-divider": "/wxcomponents/vant/dist/divider/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "van-picker": "/wxcomponents/vant/dist/picker/index",
+    "van-cell": "/wxcomponents/vant/dist/cell/index",
+    "van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+    "van-count-down": "/wxcomponents/vant/dist/count-down/index",
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+    "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+    "van-empty": "/wxcomponents/vant/dist/empty/index",
+    "van-field": "/wxcomponents/vant/dist/field/index"
+  }
+}
